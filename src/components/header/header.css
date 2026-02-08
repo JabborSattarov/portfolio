@@ -1,0 +1,16 @@
+.header {
+   padding: 10px 100px;
+   background: #0f182c;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.logo {
+   background: linear-gradient(90deg, #00c6ff, #c17bff);
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-size: 40px;
+   font-weight: 900;
+  
+}
