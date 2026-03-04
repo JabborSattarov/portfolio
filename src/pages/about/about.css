@@ -1,0 +1,169 @@
+.about {
+   min-width: 1025px;
+   border-top: 2px solid #314158;
+   background: #192438;
+   padding: 0px 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.about_content {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.content_aboutme {
+   background: #1a2d62;
+   color: #8ebad7;
+   border: 2px solid #193bb7;
+   padding: 10px 20px;
+   border-radius: 20px;
+   margin: 80px 0px 10px 0px;
+}
+
+.content_h2 {
+   color: #fff;
+   font-size: 50px;
+   margin: 20px 0px 10px 0px;
+}
+
+.content_h3 {
+   color: #cac7b5;
+   font-size: 20px;
+   margin: 10px 0px 50px 0px;
+}
+
+.story {
+   width: 60%
+}
+
+.story_title {
+   font-size: 30px;
+   color: #fff;
+   text-align: center;
+   margin: 10px 0px 50px 0px;
+}
+
+.story_text {
+   color: #fff;
+   text-align: justify;
+   margin: 10px 0px;
+}
+
+.about_cards {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 50px 0px;
+}
+
+.card {
+   width: 40%;
+   padding: 10px;
+   background: #1d293d;
+   border: 1px solid #314158;
+   padding: 15px;
+   margin: 10px 0px 50px 0px;
+   border-radius: 12px;
+}
+
+.card_h4 {
+   color: #cac7b5;
+   margin: 5px 0px;
+   font-size: 14px;
+   font-weight: normal;
+}
+
+.card_h3 {
+   color: #fff;
+   margin: 5px 0px;
+   font-size: 18px;
+}
+
+.technical_skils {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.technical_skills_h2 {
+   color: #fff;
+   font-size: 30px;
+   margin: 40px 0px 10px 0px;
+}
+
+.card_box {
+   margin-top: 20px;
+   width: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.skills_cards {
+   width: 25%;
+   background: #1d293d;
+   border: 1px solid #314158;
+   padding: 20px;
+   margin: 20px 10px;
+   border-radius: 12px;
+   color: #fff;
+   text-align: center;
+   font-weight: bolder;
+   font-size: 18px;
+}
+
+.values {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.values_h2 {
+   font-size: 30px;
+   margin: 100px 0px 10px 0px;
+   color: #fff;
+}
+
+.values_box {
+   margin-top: 20px;
+   width: 100%;
+   display: flex;
+   gap: 20px;
+}
+
+.values_cards {
+   flex: 0 0 calc(25% - 15px);
+   background: #1d293d;
+   border: 1px solid #314158;
+   padding: 20px 30px;
+   border-radius: 12px;
+   color: #fff;
+   font-weight: bolder;
+   font-size: 18px;
+   /* margin-top: 30px;
+   margin-bottom: 50px; */
+   margin: 20px 3px;
+}
+.values_cards_h2 {
+   font-size: 20px;
+   padding: 0px;
+   margin: 10px 0px ;
+}
+.values_cards_p{
+   color: #cac7b5;
+   padding: 0;
+   font-size: 16px;
+   font-weight: normal;
+   margin: 10px 0px;
+}

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {
   DownloadIcon,
   GamilIcon,
@@ -11,7 +12,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <div className="home_body">
+      <main className="home_body">
         <div className="content">
           <div className="context">
             <span className="context_wellcome">Wellcome to my portfolio</span>
@@ -28,10 +29,12 @@ const Home = () => {
             </p>
           </div>
           <div className="buttons">
-            <div className="buttons_view">View my work </div>
-            <div className="buttons_resume">
-              Resume <DownloadIcon className={"icon"} />{" "}
-            </div>
+            <Link to={"/experience"} className="buttons_view">
+              View my work{" "}
+            </Link>
+            <button className="buttons_resume">
+              Resume <DownloadIcon className={"downlaod_icon"} />{" "}
+            </button>
           </div>
           <div className="icons">
             <div className="icon_wrapper">
@@ -45,7 +48,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </main>
       <footer className="footer">
         <div className="cards">
           <h2 className="num">2+</h2>
