@@ -1,0 +1,235 @@
+.contact {
+   min-width: 1025px;
+   border-top: 2px solid #314158;
+   background: #192438;
+   padding: 0px 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.contact_content {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.contact_title {
+   background: #1a2d62;
+   color: #8ebad7;
+   border: 2px solid #193bb7;
+   padding: 10px 20px;
+   border-radius: 20px;
+   margin: 80px 0px 10px 0px;
+}
+
+.contact_content_h2 {
+   color: #fff;
+   font-size: 50px;
+   margin: 20px 0px 10px 0px;
+}
+
+.contact_content_h3 {
+   width: 50%;
+   text-align: center;
+   color: #cac7b5;
+   font-size: 20px;
+   margin: 10px 0px 50px 0px;
+}
+
+.contact_wraper {
+   width: 100%;
+   display: flex;
+   /* align-items: start; */
+   justify-content: space-between;
+
+}
+
+.get_in_touch {
+   width: 30%;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: start;
+
+
+}
+
+.get_in_touch_h3 {
+   width: 100%;
+   color: #fff;
+   font-size: 30px;
+   margin: 30px 0px 40px 0px;
+}
+
+.get_touch_card {
+   width: 100%;
+   border: 1px solid #314158;
+   border-radius: 20px;
+   background: #1d293d;
+   padding: 20px 30px;
+   color: #fff;
+   margin: 5px 0px;
+   display: flex;
+   align-items: center;
+   justify-content: start;
+}
+
+.get_touch_icon {
+   width: 50px;
+   height: 50px;
+   margin-right: 20px;
+   border-radius: 10px;
+   /* border: 1px solid #193bb7; */
+   background: #1a2d62;
+   padding: 10px;
+}
+
+.get_touch_card_left_h4 {
+   font-size: 15px;
+   font-weight: normal;
+   color: #90a1b9;
+}
+
+.contact_follow_me {
+   width: 100%;
+   color: #fff;
+   font-size: 20px;
+   margin: 40px 0px 30px 0px;
+}
+
+.contact_icons {
+   width: 100%;
+   margin: 0px 0px 20px 0px;
+}
+
+.contact_availabilty {
+   width: 100%;
+   padding: 30px;
+   border: 1px solid #193bb7;
+   border-radius: 20px;
+   background: #20244e;
+}
+
+.contact_availabilty_h3 {
+   color: #fff;
+   margin: 0px 0px 10px 0px;
+   font-size: 20px;
+}
+
+.contact_availabilty_p {
+   color: #fff;
+   margin: 0px 0px 10px 0px;
+   font-size: 18px;
+}
+
+.contact_availabilty_h4 {
+   color: #fff;
+   margin: 20px 0px 10px 0px;
+   display: flex;
+   align-items: center;
+   justify-content: start;
+}
+
+.contact_availabilty_dot {
+   width: 15px;
+   height: 15px;
+   background: greenyellow;
+   margin-right: 10px;
+   border-radius: 50%;
+}
+
+.form_send_message {
+   width: 60%;
+   border: 1px solid #314158;
+   background: #1d293d;
+   border-radius: 20px;
+   padding: 25px;
+   margin-bottom: 50px ;
+}
+
+.form_send_message_h2 {
+   font-size: 32px;
+   color: #FFF;
+   margin-bottom: 20px;
+}
+
+.contact_form {
+   width: 100%;
+   display: flex;
+   /* align-items: center; */
+   flex-direction: column;
+   /* justify-content: start; */
+   /* position: relative; */
+}
+
+.contact_form_inline {
+   width: 100%;
+   display: flex;
+   gap: 10px;
+   margin: 40px 0px 0px 0px;
+}
+
+.contact_form_inline_box {
+   position: relative;
+   flex: 1;
+   margin: 20px 0px 50px 0px;
+}
+
+.contact_form_label {
+   color: #fff;
+   position: absolute;
+   top: -30px;
+   left: 0;
+}
+
+.contact_form_input {
+   width: 100%;
+   border: none;
+   background: #0f172b;
+   padding: 20px 30px;
+   color: #776866;
+   border-radius: 12px;
+   font-size: 18px;
+}
+
+.contact_form_column {
+   display: flex;
+   flex-direction: column;
+
+}
+
+.contact_form_textarea {
+   width: 100%;
+   height: 200px;
+   border: none;
+   background: #0f172b;
+   padding: 10px 20px;
+   color: #776866;
+   border-radius: 12px;
+   font-size: 18px;
+   resize: none;
+   padding: 20px;
+   margin-bottom: 20px;
+}
+
+.contact_form_button {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 12px;
+   font-size: 18px;
+   padding: 10px;
+   background: linear-gradient(90deg, #00c6ff, #c17bff);
+   color: #fff;
+}
+
+.contact_form_button_icon {
+   width: 30px;
+   height: 30px;
+   margin: 5px;
+}
