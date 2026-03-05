@@ -67,7 +67,7 @@ const Contact = () => {
           </div>
           <div className="form_send_message">
             <h2 className="form_send_message_h2">Send Me a Message</h2>
-            <form action="" className="contact_form">
+            <div className="contact_form">
               <div className="contact_form_inline">
                 <div className="contact_form_inline_box">
                   <label htmlFor="" className="contact_form_label">
@@ -117,7 +117,7 @@ const Contact = () => {
                   </button>
                 </div>
               </div>
-            </form>
+            </div>
           </div>
         </div>
       </main>
