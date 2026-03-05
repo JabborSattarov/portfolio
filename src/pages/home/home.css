@@ -125,7 +125,7 @@
    font-size: 17px;
    display: flex;
    align-items: center;
-   justify-content: space-between;
+   justify-content: center;
    border: 1px solid #1d293d;
 }
 
@@ -211,4 +211,7 @@
    color: #c2cdda7a;
    padding: 0px;
    margin: 2px 0px;
+}
+.ml_10 {
+   margin-left: 10px;
 }

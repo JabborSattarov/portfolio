@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import * as fs from "fs";
 import {
   DownloadIcon,
   GamilIcon,
@@ -7,8 +8,10 @@ import {
 } from "../../assets/icons";
 import { Header } from "../../components/header/header";
 import "./home.css";
+import "../../../public/cv.pdf"
 
 const Home = () => {
+
   return (
     <>
       <Header />
@@ -32,8 +35,11 @@ const Home = () => {
             <Link to={"/experience"} className="buttons_view">
               View my work{" "}
             </Link>
-            <button className="buttons_resume">
-              Resume <DownloadIcon className={"downlaod_icon"} />{" "}
+            <button
+              className="buttons_resume"
+              onClick={() => window.open("../../../public/cv.pdf")}
+            >
+              Resume <DownloadIcon className={"downlaod_icon ml_10"} />
             </button>
           </div>
           <div className="icons">
